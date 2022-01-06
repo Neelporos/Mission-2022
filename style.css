@@ -1,5 +1,5 @@
 body{
-
+    font-family: 'Roboto', sans-serif;
    margin: 0;
    padding: 0;
 }
@@ -38,6 +38,7 @@ h2{
     background-color: orangered;
     color: white;
     border-radius: 5px;
+
 }
 .second-head-line{
     text-align: center;
@@ -93,7 +94,32 @@ footer{
 h3{
     font-size: 25px;
     font-family: 'Dancing Script', cursive;
-
+}
+.gallery-box, link-button{
+    width: 50%;
+    height: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+    text-align: center;
 
 }
 
+.gallery-box img{
+    width: 80%;
+    padding: 5%;
+}
+.quote-box{
+    width: 50%;
+    height: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 130px;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+    text-align: center;
+    background-color: thistle;
+}
