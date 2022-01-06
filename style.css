@@ -1,0 +1,99 @@
+body{
+
+   margin: 0;
+   padding: 0;
+}
+h1{
+    font-size: 50px;
+    font-style: inherit;
+   
+}
+h2{
+    font-size: 30px;
+}
+.color{
+    color: orange;
+}
+.head-line{
+    border-left: 4px solid;
+    border-color: tomato;
+
+}
+.box-container{
+    display: flex;
+    margin-bottom: 5px;
+    padding: 60px;
+}
+.half-width{
+    width: 50%;
+    padding: 2%;
+}
+.half-width img{
+    width: 80%;
+    padding-left: 150px;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+}
+.second-head-line{
+    text-align: center;
+}
+.box-item{
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 10px;
+    border-radius: 20px;
+    box-sizing: content-box;
+}
+.box-img{
+    width: 50%;
+}
+#first-background-color{
+    background-color: whitesmoke;
+}
+#second-background-color{
+    background-color: wheat;
+}
+#third-background-color{
+    background-color: thistle;
+}
+.second-half-width{
+    width: 50%;
+    padding: 2%;
+}
+.second-half-width img{
+    width: 100%;
+}
+.develop{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px;
+    margin: 25px;
+}
+.know-our-global{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 180px;
+    margin: 20px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+   height: 100px;
+   padding: 30px;
+   color: white;
+}
+h3{
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
